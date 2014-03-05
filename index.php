@@ -27,11 +27,12 @@
     // DB connection info
     //TODO: Update the values for $host, $user, $pwd, and $db
     //using the values you retrieved earlier from the portal.
-    $host = "value of Data Source";
-    $user = "value of User Id";
-    $pwd = "value of Password";
-    $db = "value of Database";
+    $host = "eu-cdbr-azure-north-a.cloudapp.net";
+    $user = "b519a4294ddcdd";
+    $pwd = "78b16cb3";
+    $db = "GPS-ClearMySQL";
     // Connect to database.
+    // CloudDB Database=GPS-ClearMySQL;Data Source=eu-cdbr-azure-north-a.cloudapp.net;User Id=b519a4294ddcdd;Password=78b16cb3
     try {
         $conn = new PDO( "mysql:host=$host;dbname=$db", $user, $pwd);
         $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
