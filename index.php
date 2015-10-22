@@ -17,7 +17,7 @@
 </head>
 <body>
     <?php
-        echo "<h1>P-Seller GitHub PHP Demo - Register here!</h1>"
+        echo "<h1>GitHub PHP Demo - Register here!</h1>"
     ?>
 
 <p>Fill in your name and email address, then click <strong>Submit</strong> to register.</p>
