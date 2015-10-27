@@ -17,7 +17,7 @@
 </head>
 <body>
     <?php
-        echo "<h1>CI Integration PHP Demo - Register here!</h1>"
+        echo "<h1>27-10-2015 Integration PHP Demo - Register here!</h1>"
     ?>
 
 <p>Fill in your name and email address, then click <strong>Submit</strong> to register.</p>
